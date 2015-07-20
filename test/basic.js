@@ -11,10 +11,9 @@ test('basic usage', function (t) {
   t.end()
 })
 
-test('set custom LIMIT', function (t) {
-  unlimited.LIMIT = 1000
+test('set custom limit', function (t) {
   t.doesNotThrow(function () {
-    unlimited()
+    unlimited(1000)
   })
   t.equal(posix.getrlimit('nofile').soft, 1000)
   t.end()

@@ -18,12 +18,17 @@ npm install unlimited
 ## usage
 
 To attempt to upgrade the maximum file descriptor number that can be opened by this process
-to effectively unlimited (65536):
+to effectively unlimited (`65536`):
 
 ```js
 var unlimited = require('unlimited')
-
 unlimited()
+```
+
+Or specify a specific `'nofile'` number to use:
+
+```js
+unlimited(10000)
 ```
 
 If the current user's permissions or the system's `'hard'` limit do not allow the maximum
