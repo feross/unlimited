@@ -1,0 +1,50 @@
+{
+  "name": "unlimited",
+  "description": "Upgrade the maximum file descriptor number (`'nofile'`) that can be opened by this process",
+  "version": "0.0.0",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/unlimited/issues"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4",
+    "tape": "^4.0.1"
+  },
+  "homepage": "https://github.com/feross/unlimited",
+  "keywords": [
+    "upgrade ulimit",
+    "ulimit",
+    "posix",
+    "unlimited ulimit",
+    "unlimited rlimit",
+    "rlimit",
+    "set rlimit",
+    "setrlimit",
+    "set ulimit",
+    "setulimit",
+    "server",
+    "nofile",
+    "unlimited nofile",
+    "unlimited",
+    "posix.setrlimit"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/unlimited.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "optionalDependencies": {
+    "posix": "^2.0.1"
+  }
+}
