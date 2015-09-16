@@ -45,6 +45,6 @@
     "test": "standard && tape test/*.js"
   },
   "optionalDependencies": {
-    "posix": "^2.0.1"
+    "posix": "^4.0.0"
   }
 }
