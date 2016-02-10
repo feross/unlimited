@@ -1,10 +1,10 @@
 # unlimited [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
 
-[travis-image]: https://img.shields.io/travis/feross/unlimited.svg?style=flat
+[travis-image]: https://img.shields.io/travis/feross/unlimited/master.svg
 [travis-url]: https://travis-ci.org/feross/unlimited
-[npm-image]: https://img.shields.io/npm/v/unlimited.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/unlimited.svg
 [npm-url]: https://npmjs.org/package/unlimited
-[downloads-image]: https://img.shields.io/npm/dm/unlimited.svg?style=flat
+[downloads-image]: https://img.shields.io/npm/dm/unlimited.svg
 [downloads-url]: https://npmjs.org/package/unlimited
 
 ### Upgrade the maximum file descriptor number (`'nofile'`) that can be opened by this process
