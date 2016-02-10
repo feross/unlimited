@@ -14,7 +14,7 @@
     "debug": "^2.2.0"
   },
   "devDependencies": {
-    "standard": "^5.2.2",
+    "standard": "^6.0.4",
     "tape": "^4.0.1"
   },
   "homepage": "https://github.com/feross/unlimited",
