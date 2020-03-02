@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "standard": "*",
-    "tape": "^4.0.1"
+    "tape": "^4.13.2"
   },
   "homepage": "https://github.com/feross/unlimited",
   "keywords": [
