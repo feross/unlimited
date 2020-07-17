@@ -1,7 +1,7 @@
 {
   "name": "unlimited",
   "description": "Upgrade the maximum file descriptor number (`'nofile'`) that can be opened by this process",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
