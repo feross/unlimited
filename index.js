@@ -1,3 +1,4 @@
+/*! unlimited. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 var debug = require('debug')('unlimited')
 var posix
 try { posix = require('posix') } catch (err) {}
